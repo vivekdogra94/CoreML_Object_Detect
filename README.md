@@ -3,7 +3,7 @@ This simple project detects objects in Augmented Reality and displays 3D labels 
 
 ![image of scene with 3d labels on objects](post-media/giphy.gif)
 
-[Demo Video - on Youtube](https://www.youtube.com/watch?v=RjIbiAC8cBk)
+
 
 Model: Inception V3
 
@@ -41,7 +41,7 @@ If you're having issues, double check that the model is part of a target [(sourc
 
 ### Get CoreML running in real time in ARKit
 
-- There are some good tutorials / sample projects for getting CoreML running. See: [[ 1 ]](https://github.com/atomic14/VisionCoreMLSample) [[ 2 ]](https://github.com/yulingtianxia/Core-ML-Sample) [[ 3 ]](http://www.stringcode.co.uk/mlcamera/)
+- There are some good tutorials / sample projects for getting CoreML running.
 
 - What we do differently here is we're using ARKit's ARFrame as the image to be fed into CoreML.
 
